@@ -1,85 +1,124 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap');
-@import url('https://fonts.cdnfonts.com/css/hero-new');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap");
+@import url("https://fonts.cdnfonts.com/css/hero-new");
 
 * {
-    font-family: 'Roboto', 'Hero New' sans-serif;
-    box-sizing: border-box;
+  font-family: 'Roboto', 'Hero New' sans-serif;
+  box-sizing: border-box;
 }
 
 body {
-    margin: auto 0;
+  margin: auto 0;
+}
+
+h2 {
+    font-family: 'Hero New', 'Roboto', sans-serif;
 }
 
 #container {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 #header {
-    display: flex;
-    justify-content: space-around;
-    background: #3d125b;
-    align-items: flex-start;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 5px;
+  background: #3d125b;
+  align-items: flex-start;
+  font-family: 'Hero New', 'Roboto', sans-serif;
 }
 
 nav > ul {
-    margin: auto 0;
+  margin: auto 0;
 }
 
 #header > nav > ul > li {
-    display: inline;
+  display: inline;
 }
 
 #news {
-    display: flex;
-    background: purple;
+  display: flex;
+  justify-content: space-around;
+  padding: 2%;
+  background: #3d125b;
 }
 
-.section-1 > h2 {
-    margin: auto 0;
-    text-align: center;
+.section-1 {
+  width: 50%;
 }
 
-.section-2 > img {
-    width: 100%;
+span {
+  padding-right: 3%;
+}
+
+.section-1 > span > h2 {
+  margin: auto 0;
+  text-align: center;
+}
+
+.section-1 {
+  display: flex;
+  width: 60%;
+}
+
+#pk-img > img {
+  width: 500px;
 }
 
 #content {
-    background: blue;
-    text-align: center;
+  background: blue;
+  text-align: center;
 }
 
 #four-squares {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 #four-squares > div {
-    width: 180px;
+  width: 180px;
 }
 #four-squares > div > img {
-    width: 180px;
+  width: 180px;
+}
+
+#side-content {
+  display: flex;
+  align-self: center;
+  width: 85%;
+  padding: 3%;
 }
 
 #ad-square {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 #ad-square > div {
-    width: 60%;
+  width: 40%;
+  background: palegreen;
+  border-radius: 20px 0 0 20px;
+  padding: 10px;
 }
 
-#ad-square > div > h3, p {
-    margin: auto;
+#ad-square > div > h3,
+p {
+  margin: auto;
 }
 
 button {
-    align-self: center;
-    width: 90px;
-    height: 50px;
+  align-self: center;
+  width: 90px;
+  height: 60px;
+  border-radius: 0 20px 20px 0;
+  border: 0;
 }
 
 #footer {
-    
+  margin-top: 2%;
+  padding: 3% 3% 1.5% 3%;
+  text-align: center;
+  font-size: 25px;
+  background: #3d125b;
+  font-family: 'Hero New', 'Roboto', sans-serif;
 }
