@@ -1,0 +1,1 @@
+Pokémon landing project for The Odin Project!
